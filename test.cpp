@@ -1,8 +1,26 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
-int main(){
-cout<<"omm sai namo namaha"<<endl;
-//while(getwchar()!="\n");
-cin.get();
+char a[100];
+class employee
+{
+public:
+    void displayInfo()
+    {
+        cout << "Your name is....."<<a;
+    cin.get();   
+    }
+public:
+    void getInfo()
+    {
+cout<<"Enter your name :=== >>";
+cin>>a;
+    }
+};
+int main()
+{
+    employee shiva;
+    shiva.getInfo();
+    shiva.displayInfo();
+    cin.get();
     return 0;
 }
